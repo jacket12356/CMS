@@ -5,7 +5,7 @@
 
 **仓库放在哪个目录就在哪个目录下右键点Git Bash Here**
 
-###基本命令：
+<h3>基本命令：</h3>
 
 #change directory
 cd
@@ -26,7 +26,7 @@ cp
 rm
 
 
-###基本命令练习：
+<h3>基本命令练习：</h3>
 
 Administrator@PC-201701141928 MINGW32 /c
 $ pwd
