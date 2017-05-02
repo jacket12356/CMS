@@ -1,11 +1,11 @@
 # Cms
-Bash用的是linux命令
+**Bash用的是linux命令**
 
-git = bash + GUI
+**git = bash + GUI**
 
-仓库放在哪个目录就在哪个目录下右键点Git Bash Here
+**仓库放在哪个目录就在哪个目录下右键点Git Bash Here**
 
-基本命令：
+###基本命令：
 
 #change directory
 cd
@@ -26,7 +26,7 @@ cp
 rm
 
 
-基本命令练习：
+###基本命令练习：
 
 Administrator@PC-201701141928 MINGW32 /c
 $ pwd
@@ -117,7 +117,7 @@ $ clear
 
 
 
-设置Git参数
+###设置Git参数
 
 #显示当前Git的配置
 git config --list
