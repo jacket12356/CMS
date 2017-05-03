@@ -8,22 +8,22 @@
 <h3>基本命令：</h3>
 
 #change directory<br/>
-cd
+*cd*
 
 #make directory<br/>
-mkdir
+*mkdir*
 
 #print working directory<br/>
-pwd
+*pwd*
 
 #move<br/>
-mv
+*mv*
 
 #copy<br/>
-cp
+*cp*
 
 #remove<br/>
-rm
+*rm*
 
 
 <h3>基本命令练习：</h3>
@@ -120,17 +120,17 @@ $ clear
 <h3>设置Git参数</h3>
 
 #显示当前Git的配置<br/>
-git config --list
+*git config --list*
 
 
 #设置提交仓库时的用户名信息<br/>
-git config --global user.name "杨健"
+*git config --global user.name "杨健"*
 
 
 #设置提交仓库是的邮箱信息<br/>
-git config --global user.email "291906254@qq.com"<br/>
+*git config --global user.email "291906254@qq.com"<br/>
 <br/>
-#list -a
+#list -a*
 
 
 
@@ -153,23 +153,23 @@ change your mind
 
 1、进入你项目的目录，进行git初始化，创建.git文件夹<br/>
 
-git init<br/>
+*git init<br/>*
 
 2、将bash引到你要添加文件的目录中使用：<br/>
 
-git add *.*<br/>
+*git add '*.*'<br/>*
 
 命令添加需要提交的文件<br/>
 
 3、添加好要添加的文件后，使用命令：<br/>
 
-git status<br/>
+*git status<br/>*
 
 查看你已经添加的文件<br/>
 
 4、确定一次要添加这么多文件后，提交你的文件至git版本管理器<br/>
 
-git commit -m 'first commit'<br/>
+*git commit -m 'first commit'<br/>*
 
 使用git show命令可以查看到你的提交记录<br/>
 
@@ -178,15 +178,15 @@ git commit -m 'first commit'<br/>
 
 1）Https方式　　<br/>
 
-git remote add origin https://github.com/用户名/仓库名.git<br/>
+*'git remote add origin https://github.com/用户名/仓库名.git<br/>'*
 
 2）SSH方式<br/>
 
-git remote add origin git@github.com:用户名/仓库名.git<br/>
+*git remote add origin git@github.com:用户名/仓库名.git<br/>*
 
 6、push本地git至github远程仓库<br/>
 
-git push origin master    //origin 为仓库别名<br/>
+*git push origin master    //origin 为仓库别名<br/>*
 
 注意：<br/>
 （1）master指的是分支（branch）名字。一个仓库中默认的分支名字就是master，以后，你可以有别的branch；<br/>
@@ -194,4 +194,4 @@ git push origin master    //origin 为仓库别名<br/>
 
 pull与push相反，是将代码从远程仓库同步至本地仓库并merge的命令<br/>
 <br/>
-git pull origin master
+*git pull origin master*
