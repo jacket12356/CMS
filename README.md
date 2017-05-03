@@ -4,6 +4,7 @@
 **git = bash + GUI**
 
 **仓库放在哪个目录就在哪个目录下右键点Git Bash Here**
+<hr/>
 
 <h3>基本命令：</h3>
 
